@@ -57,21 +57,47 @@ li a:hover {
 }
 
 #left-content {
-    width: 50%;
+    width: 47%;
+    padding-right: 3%;
     height: 100%;
     float: left;
 }
 
 #right-content {
-    width: 50%;
+    width: 47%;
     height: 100%;
     float: right;
+    padding-left: 3%;
 }
 
 #content {
-    width: 75%;
-    height: 2000px;
-    margin: 100px auto;
+    width: 90%;
+    height: auto;
+    margin: 80px auto 50px auto;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #296ED1;
+    color: white;
+    text-align: left;
+    height: 40px;
+    margin-top: 60px;
+    padding: 0;
+}
+
+footer a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: -5px;
+    padding: 0 18px;
+    text-decoration: none;
 }
 
 #chat {
@@ -130,10 +156,11 @@ iframe {
     #right-content {
         width: 100%;
         height: auto;
+        padding-bottom: 40px;
     }
 
     #content {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
