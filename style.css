@@ -32,7 +32,7 @@ header {
     overflow: hidden;
     background-color: #88b6cf;
     position: fixed;
-    top: 59px;
+    top: 57px;
     width: 100%;
 }
 
@@ -57,21 +57,20 @@ li a:hover {
 }
 
 #left-content {
-    width: 47%;
-    padding-right: 3%;
+    width: 50%;
+    padding-right: 5%;
     height: 100%;
     float: left;
 }
 
 #right-content {
-    width: 47%;
+    width: 45%;
     height: 100%;
     float: right;
-    padding-left: 3%;
 }
 
 #content {
-    width: 90%;
+    width: 85%;
     height: auto;
     margin: 80px auto 50px auto;
     padding: 20px;
@@ -157,10 +156,5 @@ iframe {
         width: 100%;
         height: auto;
         padding-bottom: 40px;
-    }
-
-    #content {
-        width: 80%;
-        height: auto;
     }
 }
