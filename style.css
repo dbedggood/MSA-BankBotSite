@@ -1,11 +1,59 @@
-body {
-    font-size: 25px;
-    background-color: lightblue;
+* {
+    font-family: "Arial";
 }
 
-#heading {
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 246, 255);
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    vertical-align: middle;
     text-align: center;
-    font-size: 50px;
+    color: white;
+    background-color: #296ED1;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88b6cf;
+    position: fixed;
+    top: 59px;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #5790da;
+}
+
+.active {
+    background-color: #5f9bee;
 }
 
 #left-content {
@@ -22,8 +70,8 @@ body {
 
 #content {
     width: 75%;
-    height: 750px;
-    margin: 0 auto;
+    height: 2000px;
+    margin: 100px auto;
 }
 
 #chat {
