@@ -56,6 +56,10 @@ li a:hover {
     background-color: #5f9bee;
 }
 
+.standout {
+    colour: #D6912E;
+}
+
 #left-content {
     width: 50%;
     padding-right: 5%;
@@ -107,6 +111,11 @@ footer a {
     margin: -5px;
     padding: 0 18px;
     text-decoration: none;
+}
+
+#button {
+    color: orange;
+    font-weight: bold;
 }
 
 #chat {

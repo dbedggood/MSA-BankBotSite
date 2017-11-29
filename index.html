@@ -6,8 +6,29 @@
         <title>Contoso Bank</title>
         <link href="style.css" rel="stylesheet" />
         <script src="script.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js">
+        </script>
+        <script>
+
+        var contrast = false;
+
+        $(document).ready(function(){
+            $("#button").click(function(){
+                $("body").css("filter", contrast ? "invert(0) contrast(1)" : "invert(1) contrast(1.1)");
+                $("p").css("color", contrast ? "black" : "white");
+                $("h1").css("color", contrast ? "black" : "white");
+                $("h2").css("color", contrast ? "black" : "white");
+                $("h3").css("color", contrast ? "black" : "white");
+                $("h3").css("color", contrast ? "black" : "white");
+                $("h4").css("color", contrast ? "black" : "white");
+                $("li a").css("color", contrast ? "white" : "black");
+                contrast = !contrast;
+            });
+
+        });
+        </script>
     </head>
-    
+
     <body>
         
         <header>
@@ -48,7 +69,7 @@
         </div>
 
         <footer>
-            <p><a href="#about">About</a></p>
+            <p><a href="#contrast" id="button">Hi-Contrast</a></p>
             <p><a href="#contact">Contact</a></p>
         </footer> 
 
